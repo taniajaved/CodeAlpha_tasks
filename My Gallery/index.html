@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production Media Matrix | CodeAlpha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Corporate Clean Fonts -->
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <div class="studio-wrapper">
+        <header class="studio-header">
+            <span class="internship-badge">CodeAlpha Engineering Task</span>
+            <h1>Curated Media Archive</h1>
+            <p>A production-ready digital library utilizing absolute layout constraints, uniform micro-borders, and interactive asynchronous asset filtering.</p>
+            
+            <!-- Sleek Underlined Minimal Tabs -->
+            <div class="filter-bar">
+                <button class="filter-tab active" data-filter="all">All Assets</button>
+                <button class="filter-tab" data-filter="nature">Nature</button>
+                <button class="filter-tab" data-filter="architecture">Architecture</button>
+                <button class="filter-tab" data-filter="travel">Travel</button>
+            </div>
+        </header>
+
+        <!-- Balanced 3-Column Studio Grid -->
+        <main class="studio-grid">
+            <!-- Environmental Collection (Nature 1 to 3) -->
+            <div class="studio-card nature">
+                <div class="img-frame"><img src="images/nature1.jpg" alt="Mystic Forest Ecosystem"></div>
+                <div class="card-details"><span class="category-meta">Nature</span><h3>Mystic Forest</h3></div>
+            </div>
+            <div class="studio-card nature">
+                <div class="img-frame"><img src="images/nature2.jpg" alt="Mountain Mist Topography"></div>
+                <div class="card-details"><span class="category-meta">Nature</span><h3>Mountain Mist</h3></div>
+            </div>
+            <div class="studio-card nature">
+                <div class="img-frame"><img src="images/nature3.jpg" alt="Autumn Trail Pathway"></div>
+                <div class="card-details"><span class="category-meta">Nature</span><h3>Autumn Trail</h3></div>
+            </div>
+            
+            <!-- Structural Collection (Architecture 1 to 3) -->
+            <div class="studio-card architecture">
+                <div class="img-frame"><img src="images/architecture1.jpg" alt="Modern Minimalist Cathedral"></div>
+                <div class="card-details"><span class="category-meta">Architecture</span><h3>Modern Cathedral</h3></div>
+            </div>
+            <div class="studio-card architecture">
+                <div class="img-frame"><img src="images/architecture2.jpg" alt="Urban Sky Geometries"></div>
+                <div class="card-details"><span class="category-meta">Architecture</span><h3>Urban Geometries</h3></div>
+            </div>
+            <div class="studio-card architecture">
+                <div class="img-frame"><img src="images/architecture3.jpg" alt="Minimal Linear Facade"></div>
+                <div class="card-details"><span class="category-meta">Architecture</span><h3>Minimal Facade</h3></div>
+            </div>
+            <!-- Explorational Collection (Travel 1 to 3) -->
+            <div class="studio-card travel">
+                <div class="img-frame"><img src="images/travel1.jpg" alt="Tropical Coast & Blue Horizons"></div>
+                <div class="card-details"><span class="category-meta">Travel</span><h3>Tropical Coast</h3></div>
+            </div>
+            <div class="studio-card travel">
+                <div class="img-frame"><img src="images/travel2.jpg" alt="Arid Canyon Highway Trails"></div>
+                <div class="card-details"><span class="category-meta">Travel</span><h3>Arid Canyon</h3></div>
+            </div>
+            <div class="studio-card travel">
+                <div class="img-frame"><img src="images/travel3.jpg" alt="Venetian Canal Navigation"></div>
+                <div class="card-details"><span class="category-meta">Travel</span><h3>Venice Waters</h3></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Matte Cinematic Lightbox Viewer -->
+    <div id="lightbox" class="studio-viewer">
+        <span class="close-viewer">&times;</span>
+        <button class="nav-control prev-control">❮</button>
+        <div class="viewer-workspace">
+            <img id="lightbox-img" src="" alt="Fidelity Master Screen Plates">
+            <div id="lightbox-caption">System Metadata Engine</div>
+        </div>
+        <button class="nav-control next-control">❯</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
